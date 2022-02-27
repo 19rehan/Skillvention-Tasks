@@ -1,0 +1,13 @@
+# =============================================================================
+# DAY 05 TASK 05
+# =============================================================================
+
+kgs_value = float(input("Please Enter The amount in kgs :- "))
+kgs = kgs_value*2.2
+height =float(input("Please Enter YOur Height in Inches :- "))
+hei = height*2.54
+degree = float(input("Please Enter Radian :- "))
+deg  = degree*180/3.14
+print(int(kgs_value),"KiloGrams Convert Into",kgs," pounds")
+print(int(height),"Inches Converts Into",hei,"Centimeters")
+print(int(degree),"Radian Converts Into",deg,"Degrees")
