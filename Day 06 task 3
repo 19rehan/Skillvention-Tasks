@@ -1,0 +1,18 @@
+# =============================================================================
+# DAY 06 TASK 03
+# =============================================================================
+
+print("arts ","drawing ","management","\n","Interst in Programming ","Problem solving "
+            ,"Interest in Technology ","\n","Bio","Development Of Humenity ","Science")
+subj_1 = input("Please Enter Your Interest in subj 1 :- ")
+subj_2 = input("Please Enter Your Interest in subj 2 :- ")
+subj_3 = input("Please Enter Your Interest in subj 3 :- ")
+
+if   subj_1 == "arts" and  subj_2 == "drawing" and subj_3 == "management":
+     print("I Will Suggest You Field Of Arts For Your Future...")
+elif subj_1 == "programing" and subj_2 == "problem Solving" and subj_3 == "technology":
+     print("I Will Suggest You Engineering For Your Future...")
+elif subj_1 == "bio" and subj_2 == "humenity" and subj_3 == "science":
+     print("I Will Suggest You Medicel Field For Your Future")
+else:
+    print("You Are In Wrong Deriction thanks...")
