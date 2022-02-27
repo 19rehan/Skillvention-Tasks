@@ -1,0 +1,4 @@
+#   DAY 05 TASK 04
+weight = int(input("Enter Your Weight in kgs :- "))
+height = int(input("Enter height in cm :- "))
+print("Your BMI is : ",weight/height/height*10000) 
