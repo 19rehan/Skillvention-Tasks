@@ -1,0 +1,56 @@
+#Integers
+a = 2
+b = 3
+c = 5
+d = 7
+e = 8
+
+#Floats
+a_1 = 2.3
+b_1 = 4.5
+c_1 = 6.7
+d_1 = 6.5
+e_1 = 7.5
+
+#Complex
+
+a_2 = 4j
+b_2 = 5j
+c_2 = 64j
+d_2 = 43j
+e_2 =34j
+
+#String
+
+a_3 = "rehan"
+b_3 = "akhtar"
+c_3 = "swat"
+d_3 = "kpk"
+e_3 ="pakistan"
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+
+
+print(type(a_1))
+print(type(b_1))
+print(type(c_1))
+print(type(d_1))
+print(type(e_1))
+
+
+print(type(a_2))
+print(type(b_2))
+print(type(c_2))
+print(type(d_2))
+print(type(e_2))
+
+
+print(type(a_3))
+print(type(b_3))
+print(type(c_3))
+print(type(d_3))
+print(type(e_3))
