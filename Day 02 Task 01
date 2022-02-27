@@ -1,0 +1,24 @@
+# =============================================================================
+# In Tuptes strings int etc are immutables so we can't add or remove any candidate and also
+# the same name of candidates can also be selected. So tupte allow us for duplicates.
+# =============================================================================
+Selected_Condidates = ("Ali", "Asad", "Farah", "Shameer", "Subhan",
+                        "Salar","Hafsa","Sana","Hoora","Ahad","Saif",
+                        "Maryam","Irfan","Furan", "Mehroz")
+print (Selected_Condidates)
+
+# Gluty' product
+
+'''Using set for this task because set can't allow for duplicate in the , menu we can't
+get the same flavour and also can change the flavour and also change their order'''
+
+
+Flavours = {"Orange", "pineapple", "grapes", "tutyfruty", "pepsi", "pakola", "reditrish"}
+print (Flavours)
+
+
+#HooraPharma leading diagnostic medical tools provider
+#using set if added something double can be showed once'
+products = ["Ventilator","CTscan","DefibrilLator",
+            "ECG machine","Patient monitor","Syringes"," MRI"]
+print (products)
