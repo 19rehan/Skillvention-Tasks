@@ -1,0 +1,21 @@
+# =============================================================================
+# DAY 05 TASK 06
+# =============================================================================
+base_1 = int(input("Please Enter Base 1 in Feets :- "))
+base_2 = int(input("Please Enter Base 2 in Feets :- "))
+height = int(input("Please Enter Height In Feets :- "))
+
+print(int((base_1+base_2)/2*height),"feet sqr")
+
+
+base = int(input("Enter Length For Base In Feets :-"))
+height_2 = int(input("Enter Length For Height In feets :- "))
+
+print(base*height_2,"feet sqr")
+
+
+
+radius = int(input("Enter The Radius :- "))
+height_3 = int(input("Enter The Height :- "))
+print("Volume Of Cylinder is :-",(2 * 3.14 * radius * radius)+(2 * 3.14 * radius * height_3))
+print("Surface Area is :-  ", 3.14*radius*radius*height_3)
