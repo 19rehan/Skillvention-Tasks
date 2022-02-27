@@ -1,0 +1,17 @@
+# =============================================================================
+# DAY 06 TASK 01
+# =============================================================================
+print("deposit","\n","withdraw","\n","check Balance")
+atm = input("Please Select one Option :- ")
+if atm == "deposit":
+    de = int(input("Please Enter Amount You Want To Deposit :- "))
+    print("You Have Succesfully Deposited PKR ",de)
+elif atm == "withdraw":
+ wi = int(input("Please Enter How Much Amount You Want To Withdraw :- "))
+if wi > 0 and wi <= 5000:
+ print("You HAve SuccesFully Withdraw PKR ",wi)  
+elif atm == "check balance":
+    blnc = 5000
+    print("Your Balance Is :- ",blnc)
+else:
+    print("Please Enter THe Right INFO OtherWise Your ATM Will Be Blocked THanks....")
