@@ -1,0 +1,49 @@
+# =============================================================================
+#                     LAB 03     TASK 01
+# =============================================================================
+name_1 = str(input("Please Enter Your Name "))
+height_1 = float(input("Please Enter YOur Height "))
+contact_1 = int(input("Please Enter Your Contact "))
+
+name_2 = str(input("Please Enter Your Name "))
+height_2 = float(input("Please Enter YOur Height "))
+contact_2 = int(input("Please Enter Your Contact "))
+
+name_3 = str(input("Please Enter Your Name "))
+height_3 = float(input("Please Enter YOur Height "))
+contact_3 = int(input("Please Enter Your Contact "))
+
+name_4 = str(input("Please Enter Your Name "))
+height_4 = float(input("Please Enter YOur Height "))
+contact_4 = int(input("Please Enter Your Contact "))
+
+name_5 = str(input("Please Enter Your Name "))
+height_5 = float(input("Please Enter YOur Height "))
+contact_5 = int(input("Please Enter Your Contact "))
+
+name_6 = str(input("Please Enter Your Name "))
+height_6 = float(input("Please Enter YOur Height "))
+contact_6 = int(input("Please Enter Your Contact "))
+
+name_7 = str(input("Please Enter Your Name "))
+height_7 = float(input("Please Enter YOur Height "))
+contact_7 = int(input("Please Enter Your Contact "))
+
+name_8 = str(input("Please Enter Your Name "))
+height_8 = float(input("Please Enter YOur Height "))
+contact_8 = int(input("Please Enter Your Contact "))
+
+name_9 = str(input("Please Enter Your Name "))
+height_9 = float(input("Please Enter YOur Height "))
+contact_9 = int(input("Please Enter Your Contact "))
+
+name_10 = str(input("Please Enter Your Name "))
+height_10 = float(input("Please Enter YOur Height "))
+contact_10 = int(input("Please Enter Your Contact "))
+
+info = {'names':[name_1,name_2,name_3,name_4,name_5,name_6,name_7,name_8,name_9,name_10]
+        ,'height':[height_1,height_2,height_3,height_4,height_5,height_6,
+                   height_7,height_8,height_9,height_10],
+        'contact':[contact_1,contact_2,contact_3,contact_4,contact_5,contact_6,
+                   contact_7,contact_8,contact_9,contact_10]}
+print(info)
