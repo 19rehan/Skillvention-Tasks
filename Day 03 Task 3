@@ -1,0 +1,23 @@
+# =============================================================================
+#            DAY 03 TASK 03
+# =============================================================================
+print("*_*_*_*_*_*_*_*_*_*_*_*_Welcome To Python Agency*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*")
+print("Dear Respected Client Please Fill The Registerition form")
+f_name = str(input("Please Enter Your First Name "))
+s_name = str(input("please enter your Last Name "))
+exp = input("Please write your experience ")
+cnic = input("Please Enter Your CNIC Number ")
+email = input("Enter Your Email ")
+print("\n\n\n")
+
+
+
+
+
+
+print("--------YOur Form Has Been Submitted Succesfully THanks.....")
+print("Name ",f_name+s_name)
+print("Please Share Your Experience Here ",exp)
+print("CNIC",cnic)
+print("email ",email)
+print("Congratulation Your Form HAs Been Submitted Succesfully...")
