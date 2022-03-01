@@ -1,0 +1,17 @@
+# =============================================================================
+# CLASS 11 QUIZ
+# =============================================================================
+
+v_mach = input("Please Enter What You Want In Cold Drinks/Chocolates :- ")
+if v_mach == "drinks":
+     drnks = input("Please Select Your Drink :- ")
+     if drnks == "fanta" or drnks == "pepsi" or drnks == "sting":
+        print("Please Recieve YOur ",drnks)
+     else:
+        print("We Dont Have These Thanks..")
+elif v_mach == "chocolates":
+        chclts = input("Please Select Your Favourite Chocolate :- ")
+        if chclts == "dairymilk" or chclts == "kitkat" or chclts == "snickers":
+            print("Please Recieved your ",chclts)
+        else:
+            print("We Dont Have These Thanks..")
